@@ -1,0 +1,57 @@
+CRITICAL - 2022-08-10 10:23:29 --> Trying to get property 'atasan_nip' of non-object
+#0 C:\xampp73\htdocs\appraisal\app\Models\Karyawan\AtasanModel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp73\\htdo...', 21, Array)
+#1 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\otorisasi\Otorisasi.php(86): App\Models\Karyawan\AtasanModel->getAtasan(NULL)
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\Otorisasi\Otorisasi->detail_penilaian('5F', '8')
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\Otorisasi\Otorisasi))
+#4 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-10 10:23:59 --> Trying to get property 'atasan_nip' of non-object
+#0 C:\xampp73\htdocs\appraisal\app\Models\Karyawan\AtasanModel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp73\\htdo...', 21, Array)
+#1 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\otorisasi\Otorisasi.php(86): App\Models\Karyawan\AtasanModel->getAtasan(NULL)
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\Otorisasi\Otorisasi->detail_penilaian('5F', '8')
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\Otorisasi\Otorisasi))
+#4 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-10 10:27:08 --> Trying to get property 'atasan_nip' of non-object
+#0 C:\xampp73\htdocs\appraisal\app\Models\Karyawan\AtasanModel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp73\\htdo...', 21, Array)
+#1 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\otorisasi\Otorisasi.php(86): App\Models\Karyawan\AtasanModel->getAtasan(NULL)
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\Otorisasi\Otorisasi->detail_penilaian('5F', '8')
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\Otorisasi\Otorisasi))
+#4 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-08-10 10:27:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 6
+CRITICAL - 2022-08-10 10:28:22 --> Trying to get property 'atasan_nip' of non-object
+#0 C:\xampp73\htdocs\appraisal\app\Models\Karyawan\AtasanModel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp73\\htdo...', 21, Array)
+#1 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\otorisasi\Otorisasi.php(86): App\Models\Karyawan\AtasanModel->getAtasan(NULL)
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\Otorisasi\Otorisasi->detail_penilaian('5F', '8')
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\Otorisasi\Otorisasi))
+#4 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-10 10:29:29 --> Trying to get property 'atasan_nip' of non-object
+#0 C:\xampp73\htdocs\appraisal\app\Models\Karyawan\AtasanModel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp73\\htdo...', 21, Array)
+#1 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\otorisasi\Otorisasi.php(86): App\Models\Karyawan\AtasanModel->getAtasan(NULL)
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\Otorisasi\Otorisasi->detail_penilaian('5F', '8')
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\Otorisasi\Otorisasi))
+#4 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-10 10:29:43 --> Trying to get property 'atasan_nip' of non-object
+#0 C:\xampp73\htdocs\appraisal\app\Models\Karyawan\AtasanModel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp73\\htdo...', 21, Array)
+#1 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\otorisasi\Otorisasi.php(86): App\Models\Karyawan\AtasanModel->getAtasan(NULL)
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\Otorisasi\Otorisasi->detail_penilaian('5F', '8')
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\Otorisasi\Otorisasi))
+#4 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-10 10:30:34 --> Trying to get property 'atasan_nip' of non-object
+#0 C:\xampp73\htdocs\appraisal\app\Models\Karyawan\AtasanModel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp73\\htdo...', 21, Array)
+#1 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\otorisasi\Otorisasi.php(86): App\Models\Karyawan\AtasanModel->getAtasan(NULL)
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\Otorisasi\Otorisasi->detail_penilaian('5F', '8')
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\Otorisasi\Otorisasi))
+#4 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

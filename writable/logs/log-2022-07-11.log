@@ -1,0 +1,43 @@
+CRITICAL - 2022-07-11 09:13:22 --> Undefined offset: 0
+#0 C:\xampp\htdocs\hsd-pa\app\Controllers\penilaian\DetailPenilaian.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\DetailPenilaian->gol_67('4')
+#2 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\DetailPenilaian))
+#3 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hsd-pa\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-11 10:15:39 --> Undefined offset: 0
+#0 C:\xampp\htdocs\hsd-pa\app\Controllers\penilaian\DetailPenilaian.php(154): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 154, Array)
+#1 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\DetailPenilaian->cab_gol_kc('1')
+#2 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\DetailPenilaian))
+#3 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hsd-pa\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-11 15:17:46 --> Email: sendWithSmtp throwed stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed
+ERROR - 2022-07-11 15:18:24 --> Email: sendWithSmtp throwed stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed
+ERROR - 2022-07-11 15:20:48 --> Email: sendWithSmtp throwed stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed
+ERROR - 2022-07-11 15:26:10 --> Email: sendWithSmtp throwed stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed
+CRITICAL - 2022-07-11 15:37:13 --> mail(): &quot;sendmail_from&quot; not set in php.ini or custom &quot;From:&quot; header missing
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): &quot;s...', 'C:\\xampp73\\htdo...', 206, Array)
+#1 C:\xampp73\htdocs\hsd-pa\app\Controllers\auth\ForgotPassword.php(206): mail('eka_prasetyo@bc...', '[eChoaching & e...', '<!doctype html>...', 'adminmail@bcasy...')
+#2 C:\xampp73\htdocs\hsd-pa\app\Controllers\auth\ForgotPassword.php(69): App\Controllers\Auth\ForgotPassword->_sendEmail('eka_prasetyo@bc...', '[eChoaching & e...', '<!doctype html>...')
+#3 C:\xampp73\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth\ForgotPassword->forgotPasswordProcess()
+#4 C:\xampp73\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\ForgotPassword))
+#5 C:\xampp73\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp73\htdocs\hsd-pa\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-11 15:37:17 --> mail(): &quot;sendmail_from&quot; not set in php.ini or custom &quot;From:&quot; header missing
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): &quot;s...', 'C:\\xampp73\\htdo...', 206, Array)
+#1 C:\xampp73\htdocs\hsd-pa\app\Controllers\auth\ForgotPassword.php(206): mail('eka_prasetyo@bc...', '[eChoaching & e...', '<!doctype html>...', 'adminmail@bcasy...')
+#2 C:\xampp73\htdocs\hsd-pa\app\Controllers\auth\ForgotPassword.php(69): App\Controllers\Auth\ForgotPassword->_sendEmail('eka_prasetyo@bc...', '[eChoaching & e...', '<!doctype html>...')
+#3 C:\xampp73\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth\ForgotPassword->forgotPasswordProcess()
+#4 C:\xampp73\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\ForgotPassword))
+#5 C:\xampp73\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp73\htdocs\hsd-pa\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-07-11 16:04:55 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: This is usually a temporary error during hostname resolution and means that the local server did not receive a response from an authoritative server. 
+ERROR - 2022-07-11 16:05:03 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: This is usually a temporary error during hostname resolution and means that the local server did not receive a response from an authoritative server. 
+ERROR - 2022-07-11 16:05:10 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: This is usually a temporary error during hostname resolution and means that the local server did not receive a response from an authoritative server. 

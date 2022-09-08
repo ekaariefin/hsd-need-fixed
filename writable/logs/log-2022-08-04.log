@@ -1,0 +1,339 @@
+CRITICAL - 2022-08-04 11:09:52 --> Undefined variable: golongan
+#0 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\ProsesPenilaianCab.php(377): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp73\\htdo...', 377, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\ProsesPenilaianCab->tambahPenilaian('123')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\ProsesPenilaianCab))
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-04 11:17:13 --> Undefined variable: golongan
+#0 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\ProsesPenilaianCab.php(378): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp73\\htdo...', 378, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\ProsesPenilaianCab->tambahPenilaian('123')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\ProsesPenilaianCab))
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-04 11:19:57 --> Undefined variable: golongan
+#0 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\ProsesPenilaianCab.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp73\\htdo...', 52, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\ProsesPenilaianCab->tambahPenilaian('123')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\ProsesPenilaianCab))
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-08-04 11:20:11 --> Duplicate entry '2021-20140100929' for key 'tahun_pa'
+ERROR - 2022-08-04 11:24:02 --> Duplicate entry '2021-20140100929' for key 'tahun_pa'
+ERROR - 2022-08-04 11:30:33 --> Duplicate entry '2021-20140100929' for key 'tahun_pa'
+CRITICAL - 2022-08-04 11:31:57 --> Undefined variable: gol
+#0 C:\xampp73\htdocs\appraisal\app\Views\penilaian\history\data_table.php(123): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp73\\htdo...', 123, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp73\\htdo...')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('penilaian/histo...', Array, true)
+#4 C:\xampp73\htdocs\appraisal\app\Controllers\History\History.php(22): view('penilaian/histo...', Array)
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\History\History->index()
+#6 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History\History))
+#7 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-04 11:33:17 --> Undefined variable: gol
+#0 C:\xampp73\htdocs\appraisal\app\Views\penilaian\history\data_table.php(123): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp73\\htdo...', 123, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp73\\htdo...')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('penilaian/histo...', Array, true)
+#4 C:\xampp73\htdocs\appraisal\app\Controllers\History\History.php(22): view('penilaian/histo...', Array)
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\History\History->index()
+#6 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History\History))
+#7 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-04 11:39:22 --> syntax error, unexpected '?>'
+#0 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('penilaian/histo...', Array, true)
+#2 C:\xampp73\htdocs\appraisal\app\Controllers\History\History.php(22): view('penilaian/histo...', Array)
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\History\History->index()
+#4 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History\History))
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-04 11:39:51 --> syntax error, unexpected '?>'
+#0 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('penilaian/histo...', Array, true)
+#2 C:\xampp73\htdocs\appraisal\app\Controllers\History\History.php(22): view('penilaian/histo...', Array)
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\History\History->index()
+#4 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History\History))
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-08-04 11:41:49 --> Duplicate entry '2021-20140100929' for key 'tahun_pa'
+CRITICAL - 2022-08-04 11:41:53 --> Undefined variable: gol
+#0 C:\xampp73\htdocs\appraisal\app\Views\penilaian\cabang\detail\detail_cabang.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp73\\htdo...', 41, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp73\\htdo...')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('penilaian/caban...', Array, true)
+#4 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\DetailPenilaian.php(140): view('penilaian/caban...', Array)
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\DetailPenilaian->cab_gol_123('11')
+#6 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\DetailPenilaian))
+#7 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-04 11:42:14 --> Undefined variable: gol
+#0 C:\xampp73\htdocs\appraisal\app\Views\penilaian\cabang\detail\detail_cabang.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp73\\htdo...', 41, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp73\\htdo...')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('penilaian/caban...', Array, true)
+#4 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\DetailPenilaian.php(140): view('penilaian/caban...', Array)
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\DetailPenilaian->cab_gol_123('11')
+#6 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\DetailPenilaian))
+#7 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-04 11:42:15 --> Undefined variable: gol
+#0 C:\xampp73\htdocs\appraisal\app\Views\penilaian\cabang\detail\detail_cabang.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp73\\htdo...', 41, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp73\\htdo...')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('penilaian/caban...', Array, true)
+#4 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\DetailPenilaian.php(140): view('penilaian/caban...', Array)
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\DetailPenilaian->cab_gol_123('11')
+#6 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\DetailPenilaian))
+#7 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-04 11:42:40 --> Undefined variable: gol
+#0 C:\xampp73\htdocs\appraisal\app\Views\penilaian\cabang\detail\detail_cabang.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp73\\htdo...', 41, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp73\\htdo...')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('penilaian/caban...', Array, true)
+#4 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\DetailPenilaian.php(140): view('penilaian/caban...', Array)
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\DetailPenilaian->cab_gol_123('11')
+#6 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\DetailPenilaian))
+#7 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-04 11:42:44 --> Undefined variable: gol
+#0 C:\xampp73\htdocs\appraisal\app\Views\penilaian\cabang\detail\detail_cabang.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp73\\htdo...', 41, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp73\\htdo...')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('penilaian/caban...', Array, true)
+#4 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\DetailPenilaian.php(140): view('penilaian/caban...', Array)
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\DetailPenilaian->cab_gol_123('11')
+#6 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\DetailPenilaian))
+#7 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-04 11:44:02 --> Undefined variable: gol
+#0 C:\xampp73\htdocs\appraisal\app\Views\penilaian\cabang\detail\detail_cabang.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp73\\htdo...', 41, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp73\\htdo...')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('penilaian/caban...', Array, true)
+#4 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\DetailPenilaian.php(140): view('penilaian/caban...', Array)
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\DetailPenilaian->cab_gol_123('11')
+#6 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\DetailPenilaian))
+#7 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-04 11:44:03 --> Undefined variable: gol
+#0 C:\xampp73\htdocs\appraisal\app\Views\penilaian\history\data_table.php(131): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp73\\htdo...', 131, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp73\\htdo...')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('penilaian/histo...', Array, true)
+#4 C:\xampp73\htdocs\appraisal\app\Controllers\History\History.php(22): view('penilaian/histo...', Array)
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\History\History->index()
+#6 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History\History))
+#7 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-04 11:44:05 --> Undefined variable: gol
+#0 C:\xampp73\htdocs\appraisal\app\Views\penilaian\history\data_table.php(131): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp73\\htdo...', 131, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp73\\htdo...')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('penilaian/histo...', Array, true)
+#4 C:\xampp73\htdocs\appraisal\app\Controllers\History\History.php(22): view('penilaian/histo...', Array)
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\History\History->index()
+#6 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History\History))
+#7 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-04 11:44:06 --> Undefined variable: gol
+#0 C:\xampp73\htdocs\appraisal\app\Views\penilaian\history\data_table.php(131): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp73\\htdo...', 131, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp73\\htdo...')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('penilaian/histo...', Array, true)
+#4 C:\xampp73\htdocs\appraisal\app\Controllers\History\History.php(22): view('penilaian/histo...', Array)
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\History\History->index()
+#6 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History\History))
+#7 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-04 11:44:07 --> Undefined variable: gol
+#0 C:\xampp73\htdocs\appraisal\app\Views\penilaian\history\data_table.php(131): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp73\\htdo...', 131, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp73\\htdo...')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('penilaian/histo...', Array, true)
+#4 C:\xampp73\htdocs\appraisal\app\Controllers\History\History.php(22): view('penilaian/histo...', Array)
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\History\History->index()
+#6 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History\History))
+#7 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-04 11:44:52 --> Undefined variable: gol
+#0 C:\xampp73\htdocs\appraisal\app\Views\penilaian\history\data_table.php(131): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp73\\htdo...', 131, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp73\\htdo...')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('penilaian/histo...', Array, true)
+#4 C:\xampp73\htdocs\appraisal\app\Controllers\History\History.php(22): view('penilaian/histo...', Array)
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\History\History->index()
+#6 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History\History))
+#7 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-04 11:44:56 --> Undefined variable: gol
+#0 C:\xampp73\htdocs\appraisal\app\Views\penilaian\history\data_table.php(131): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp73\\htdo...', 131, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp73\\htdo...')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('penilaian/histo...', Array, true)
+#4 C:\xampp73\htdocs\appraisal\app\Controllers\History\History.php(22): view('penilaian/histo...', Array)
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\History\History->index()
+#6 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History\History))
+#7 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-04 11:45:18 --> Undefined variable: gol
+#0 C:\xampp73\htdocs\appraisal\app\Views\penilaian\history\data_table.php(131): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp73\\htdo...', 131, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp73\\htdo...')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('penilaian/histo...', Array, true)
+#4 C:\xampp73\htdocs\appraisal\app\Controllers\History\History.php(22): view('penilaian/histo...', Array)
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\History\History->index()
+#6 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History\History))
+#7 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-04 11:45:21 --> Undefined variable: gol
+#0 C:\xampp73\htdocs\appraisal\app\Views\penilaian\history\data_table.php(131): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp73\\htdo...', 131, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp73\\htdo...')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('penilaian/histo...', Array, true)
+#4 C:\xampp73\htdocs\appraisal\app\Controllers\History\History.php(22): view('penilaian/histo...', Array)
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\History\History->index()
+#6 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History\History))
+#7 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-04 11:45:22 --> Undefined variable: gol
+#0 C:\xampp73\htdocs\appraisal\app\Views\penilaian\history\data_table.php(131): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp73\\htdo...', 131, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp73\\htdo...')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('penilaian/histo...', Array, true)
+#4 C:\xampp73\htdocs\appraisal\app\Controllers\History\History.php(22): view('penilaian/histo...', Array)
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\History\History->index()
+#6 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History\History))
+#7 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-04 11:45:38 --> Undefined variable: gol
+#0 C:\xampp73\htdocs\appraisal\app\Views\penilaian\history\data_table.php(131): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp73\\htdo...', 131, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp73\\htdo...')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('penilaian/histo...', Array, true)
+#4 C:\xampp73\htdocs\appraisal\app\Controllers\History\History.php(22): view('penilaian/histo...', Array)
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\History\History->index()
+#6 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History\History))
+#7 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-04 11:45:48 --> Undefined variable: gol
+#0 C:\xampp73\htdocs\appraisal\app\Views\penilaian\cabang\detail\detail_cabang.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp73\\htdo...', 41, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp73\\htdo...')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('penilaian/caban...', Array, true)
+#4 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\DetailPenilaian.php(140): view('penilaian/caban...', Array)
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\DetailPenilaian->cab_gol_123('11')
+#6 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\DetailPenilaian))
+#7 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-04 11:46:05 --> Undefined variable: gol
+#0 C:\xampp73\htdocs\appraisal\app\Views\penilaian\cabang\detail\detail_cabang.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp73\\htdo...', 41, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp73\\htdo...')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('penilaian/caban...', Array, true)
+#4 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\DetailPenilaian.php(140): view('penilaian/caban...', Array)
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\DetailPenilaian->cab_gol_123('13')
+#6 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\DetailPenilaian))
+#7 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-04 11:46:57 --> Undefined variable: gol
+#0 C:\xampp73\htdocs\appraisal\app\Views\penilaian\cabang\detail\detail_cabang.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp73\\htdo...', 41, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp73\\htdo...')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('penilaian/caban...', Array, true)
+#4 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\DetailPenilaian.php(140): view('penilaian/caban...', Array)
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\DetailPenilaian->cab_gol_123('13')
+#6 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\DetailPenilaian))
+#7 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-08-04 14:18:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 6
+ERROR - 2022-08-04 14:19:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 6
+ERROR - 2022-08-04 14:20:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 6
+ERROR - 2022-08-04 14:21:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 6
+CRITICAL - 2022-08-04 15:16:59 --> Undefined offset: 0
+#0 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\DetailPenilaian.php(130): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp73\\htdo...', 130, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\DetailPenilaian->cab_gol_123('14')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\DetailPenilaian))
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-04 15:17:05 --> Undefined offset: 0
+#0 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\DetailPenilaian.php(130): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp73\\htdo...', 130, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\DetailPenilaian->cab_gol_123('14')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\DetailPenilaian))
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-04 15:17:26 --> Undefined variable: coaching
+#0 C:\xampp73\htdocs\appraisal\app\Views\dashboard\home.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp73\\htdo...', 34, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp73\\htdo...')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('dashboard/home', Array, true)
+#4 C:\xampp73\htdocs\appraisal\app\Controllers\Home.php(213): view('dashboard/home', Array)
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-04 15:19:50 --> Undefined variable: coaching
+#0 C:\xampp73\htdocs\appraisal\app\Views\dashboard\home.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp73\\htdo...', 34, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp73\\htdo...')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('dashboard/home', Array, true)
+#4 C:\xampp73\htdocs\appraisal\app\Controllers\Home.php(213): view('dashboard/home', Array)
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-04 15:22:19 --> Undefined variable: coaching
+#0 C:\xampp73\htdocs\appraisal\app\Views\dashboard\home.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp73\\htdo...', 34, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp73\\htdo...')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('dashboard/home', Array, true)
+#4 C:\xampp73\htdocs\appraisal\app\Controllers\Home.php(213): view('dashboard/home', Array)
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-04 15:56:48 --> Undefined offset: 0
+#0 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\DetailPenilaian.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp73\\htdo...', 148, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\DetailPenilaian->cab_gol_4s('1')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\DetailPenilaian))
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-04 16:07:37 --> Undefined offset: 0
+#0 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\DetailPenilaian.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp73\\htdo...', 148, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\DetailPenilaian->cab_gol_4s('1')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\DetailPenilaian))
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

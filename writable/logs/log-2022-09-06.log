@@ -1,0 +1,30 @@
+CRITICAL - 2022-09-06 14:01:19 --> Undefined index: employee_name
+#0 C:\xampp73\htdocs\appraisal\app\Views\coaching\formulir_coaching.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp73\\htdo...', 36, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp73\\htdo...')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('coaching/formul...', Array, true)
+#4 C:\xampp73\htdocs\appraisal\app\Controllers\Coaching\Coaching.php(358): view('coaching/formul...', Array)
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Coaching\Coaching->addCoaching()
+#6 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coaching\Coaching))
+#7 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-06 14:02:13 --> Undefined variable: sarbis_date
+#0 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\Penilaian.php(806): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp73\\htdo...', 806, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\Penilaian->form_pa_edit('2021', '3', '20210201770')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\Penilaian))
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-09-06 16:37:44 --> Column 'atasan2' cannot be null
+ERROR - 2022-09-06 16:41:16 --> Column 'atasan2' cannot be null
+CRITICAL - 2022-09-06 16:57:59 --> unlink(C:\xampp73\htdocs\appraisal\writable\debugbar/debugbar_1662457283.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp73\\htdo...', 74, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Debug\Toolbar\Collectors\History.php(74): unlink('C:\\xampp73\\htdo...')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Debug\Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1662458278, 20)
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp73\htdocs\appraisal\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

@@ -1,0 +1,52 @@
+CRITICAL - 2022-08-01 10:44:48 --> Undefined offset: 0
+#0 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\DetailPenilaian.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp73\\htdo...', 40, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\DetailPenilaian->gol_4f('5')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\DetailPenilaian))
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-01 10:44:51 --> Undefined offset: 0
+#0 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\DetailPenilaian.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp73\\htdo...', 40, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\DetailPenilaian->gol_4f('5')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\DetailPenilaian))
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-01 10:46:31 --> Undefined offset: 0
+#0 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\DetailPenilaian.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp73\\htdo...', 40, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\DetailPenilaian->gol_4f('3')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\DetailPenilaian))
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-01 10:46:42 --> Undefined offset: 0
+#0 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\DetailPenilaian.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp73\\htdo...', 40, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\DetailPenilaian->gol_4f('3')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\DetailPenilaian))
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-01 10:48:06 --> Undefined offset: 0
+#0 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\DetailPenilaian.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp73\\htdo...', 40, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\DetailPenilaian->gol_4f('6')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\DetailPenilaian))
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-08-01 15:04:52 --> Column 'uraian_sb6' cannot be null
+ERROR - 2022-08-01 15:07:07 --> Column 'uraian_sb6' cannot be null
+ERROR - 2022-08-01 15:10:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 6
+CRITICAL - 2022-08-01 15:10:57 --> Call to a member function getResultArray() on bool
+#0 C:\xampp73\htdocs\appraisal\app\Controllers\Karyawan.php(45): App\Models\Karyawan\AtasanModel->getBawahanFull()
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Karyawan->daftar_karyawan()
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-08-01 15:22:52 --> Column 'uraian_sb6' cannot be null
+ERROR - 2022-08-01 16:31:37 --> Column 'uraian_sb6' cannot be null
+ERROR - 2022-08-01 16:38:36 --> Column 'uraian_sb6' cannot be null
+ERROR - 2022-08-01 16:39:52 --> Column 'uraian_sb6' cannot be null
+ERROR - 2022-08-01 16:42:27 --> Column 'uraian_sb6' cannot be null
+ERROR - 2022-08-01 16:47:45 --> Column 'uraian_sb6' cannot be null
+ERROR - 2022-08-01 16:55:53 --> Column 'uraian_sb6' cannot be null

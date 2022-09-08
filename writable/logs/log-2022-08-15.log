@@ -1,0 +1,21 @@
+CRITICAL - 2022-08-15 13:17:29 --> Invalid file: sarbis/edit/1.php
+#0 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sarbis/edit/1.p...')
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('sarbis/edit/1', Array, true)
+#2 C:\xampp73\htdocs\appraisal\app\Controllers\Sarbis.php(341): view('sarbis/edit/1', Array, Array)
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Sarbis->process_edit()
+#4 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sarbis))
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-15 15:24:01 --> CodeIgniter\View\View::main(): Failed opening required 'kp_form_header.php' (include_path='C:\xampp73\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-15 15:24:18 --> CodeIgniter\View\View::main(): Failed opening required 'kp_form_header.php' (include_path='C:\xampp73\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-15 16:10:05 --> CodeIgniter\View\View::main(): Failed opening required 'kp_form_header.php' (include_path='C:\xampp73\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-15 16:46:56 --> CodeIgniter\View\View::main(): Failed opening required 'kp_form_header.php' (include_path='C:\xampp73\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

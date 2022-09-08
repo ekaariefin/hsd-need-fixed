@@ -1,0 +1,15 @@
+ERROR - 2022-08-12 09:50:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 6
+ERROR - 2022-08-12 10:11:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 6
+ERROR - 2022-08-12 11:21:38 --> Duplicate entry '2022-20211101881' for key 'tahun_sp'
+ERROR - 2022-08-12 11:22:28 --> Duplicate entry '2022-20211101881' for key 'tahun_sp'
+ERROR - 2022-08-12 11:24:30 --> Duplicate entry '2022-20211101881' for key 'tahun_sp'
+CRITICAL - 2022-08-12 16:52:07 --> unlink(C:\xampp73\htdocs\appraisal\writable\debugbar/debugbar_1660297753.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp73\\htdo...', 74, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Debug\Toolbar\Collectors\History.php(74): unlink('C:\\xampp73\\htdo...')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Debug\Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1660297927, 20)
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp73\htdocs\appraisal\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

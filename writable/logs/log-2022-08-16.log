@@ -1,0 +1,47 @@
+CRITICAL - 2022-08-16 09:06:40 --> unlink(C:\xampp73\htdocs\appraisal\writable\debugbar/debugbar_1660615107.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp73\\htdo...', 74, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Debug\Toolbar\Collectors\History.php(74): unlink('C:\\xampp73\\htdo...')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Debug\Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1660615600, 20)
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp73\htdocs\appraisal\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-16 09:08:57 --> CodeIgniter\View\View::main(): Failed opening required 'kp_form_header.php' (include_path='C:\xampp73\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-16 10:56:08 --> unlink(C:\xampp73\htdocs\appraisal\writable\debugbar/debugbar_1660621328.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp73\\htdo...', 74, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Debug\Toolbar\Collectors\History.php(74): unlink('C:\\xampp73\\htdo...')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Debug\Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1660622167, 20)
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp73\htdocs\appraisal\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-16 14:29:50 --> CodeIgniter\View\View::main(): Failed opening required 'kp_form_header.php' (include_path='C:\xampp73\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-16 14:34:19 --> CodeIgniter\View\View::main(): Failed opening required 'kp_form_header.php' (include_path='C:\xampp73\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-16 14:46:40 --> CodeIgniter\View\View::main(): Failed opening required 'kp_form_header.php' (include_path='C:\xampp73\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-16 14:48:14 --> CodeIgniter\View\View::main(): Failed opening required 'kp_form_header.php' (include_path='C:\xampp73\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-16 15:03:50 --> CodeIgniter\View\View::main(): Failed opening required 'kp_form_header.php' (include_path='C:\xampp73\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-16 15:20:33 --> CodeIgniter\View\View::main(): Failed opening required 'kp_form_header.php' (include_path='C:\xampp73\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-16 15:21:45 --> CodeIgniter\View\View::main(): Failed opening required 'kp_form_header.php' (include_path='C:\xampp73\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-16 15:21:59 --> CodeIgniter\View\View::main(): Failed opening required 'kp_form_header.php' (include_path='C:\xampp73\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

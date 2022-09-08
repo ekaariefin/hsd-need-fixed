@@ -1,0 +1,393 @@
+CRITICAL - 2022-07-10 13:50:44 --> Undefined variable: pageHeader
+#0 C:\xampp\htdocs\hsd\app\Views\karyawan\edit_karyawan.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('karyawan/edit_k...', Array, true)
+#4 C:\xampp\htdocs\hsd\app\Controllers\Karyawan.php(86): view('karyawan/edit_k...', Array)
+#5 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Karyawan->edit_karyawan('19940100033')
+#6 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#7 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hsd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-10 13:50:51 --> Undefined variable: pageHeader
+#0 C:\xampp\htdocs\hsd\app\Views\karyawan\edit_karyawan.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('karyawan/edit_k...', Array, true)
+#4 C:\xampp\htdocs\hsd\app\Controllers\Karyawan.php(86): view('karyawan/edit_k...', Array)
+#5 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Karyawan->edit_karyawan('19940100033')
+#6 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#7 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hsd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-10 13:51:51 --> Undefined variable: pageHeader
+#0 C:\xampp\htdocs\hsd\app\Views\karyawan\edit_karyawan.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('karyawan/edit_k...', Array, true)
+#4 C:\xampp\htdocs\hsd\app\Controllers\Karyawan.php(86): view('karyawan/edit_k...', Array)
+#5 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Karyawan->edit_karyawan('19940100033')
+#6 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#7 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hsd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-10 13:58:28 --> Undefined variable: pageHeader
+#0 C:\xampp\htdocs\hsd\app\Views\karyawan\edit_atasan.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('karyawan/edit_a...', Array, true)
+#4 C:\xampp\htdocs\hsd\app\Controllers\Karyawan.php(102): view('karyawan/edit_a...', Array)
+#5 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Karyawan->edit_atasan('19920100013')
+#6 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#7 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hsd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-10 14:59:55 --> Undefined variable: pageHeader
+#0 C:\xampp\htdocs\hsd\app\Views\karyawan\detail_karyawan.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('karyawan/detail...', Array, true)
+#4 C:\xampp\htdocs\hsd\app\Controllers\Karyawan.php(280): view('karyawan/detail...', Array)
+#5 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Karyawan->update_spv()
+#6 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#7 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hsd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-10 15:00:07 --> Undefined variable: pageHeader
+#0 C:\xampp\htdocs\hsd\app\Views\karyawan\detail_karyawan.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('karyawan/detail...', Array, true)
+#4 C:\xampp\htdocs\hsd\app\Controllers\Karyawan.php(280): view('karyawan/detail...', Array)
+#5 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Karyawan->update_spv()
+#6 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#7 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hsd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-10 15:02:27 --> Undefined variable: pageHeader
+#0 C:\xampp\htdocs\hsd\app\Views\karyawan\detail_karyawan.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('karyawan/detail...', Array, true)
+#4 C:\xampp\htdocs\hsd\app\Controllers\Karyawan.php(280): view('karyawan/detail...', Array)
+#5 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Karyawan->update_spv()
+#6 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#7 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hsd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-10 15:04:50 --> Undefined variable: pageHeader
+#0 C:\xampp\htdocs\hsd\app\Views\karyawan\detail_karyawan.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('karyawan/detail...', Array, true)
+#4 C:\xampp\htdocs\hsd\app\Controllers\Karyawan.php(280): view('karyawan/detail...', Array)
+#5 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Karyawan->update_spv()
+#6 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#7 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hsd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-10 15:09:55 --> Undefined variable: pageHeader
+#0 C:\xampp\htdocs\hsd\app\Views\karyawan\edit_karyawan.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('karyawan/edit_k...', Array, true)
+#4 C:\xampp\htdocs\hsd\app\Controllers\Karyawan.php(86): view('karyawan/edit_k...', Array)
+#5 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Karyawan->edit_karyawan('19920100013')
+#6 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#7 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hsd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-10 15:09:55 --> Undefined variable: pageHeader
+#0 C:\xampp\htdocs\hsd\app\Views\karyawan\edit_karyawan.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('karyawan/edit_k...', Array, true)
+#4 C:\xampp\htdocs\hsd\app\Controllers\Karyawan.php(86): view('karyawan/edit_k...', Array)
+#5 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Karyawan->edit_karyawan('19920100013')
+#6 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#7 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hsd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-10 15:09:55 --> Undefined variable: pageHeader
+#0 C:\xampp\htdocs\hsd\app\Views\karyawan\edit_karyawan.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('karyawan/edit_k...', Array, true)
+#4 C:\xampp\htdocs\hsd\app\Controllers\Karyawan.php(86): view('karyawan/edit_k...', Array)
+#5 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Karyawan->edit_karyawan('19920100013')
+#6 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#7 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hsd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-10 15:09:56 --> Undefined variable: pageHeader
+#0 C:\xampp\htdocs\hsd\app\Views\karyawan\edit_karyawan.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('karyawan/edit_k...', Array, true)
+#4 C:\xampp\htdocs\hsd\app\Controllers\Karyawan.php(86): view('karyawan/edit_k...', Array)
+#5 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Karyawan->edit_karyawan('19920100013')
+#6 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#7 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hsd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-10 15:09:57 --> Undefined variable: pageHeader
+#0 C:\xampp\htdocs\hsd\app\Views\karyawan\edit_karyawan.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('karyawan/edit_k...', Array, true)
+#4 C:\xampp\htdocs\hsd\app\Controllers\Karyawan.php(86): view('karyawan/edit_k...', Array)
+#5 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Karyawan->edit_karyawan('19920100013')
+#6 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#7 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hsd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-10 15:09:57 --> Undefined variable: pageHeader
+#0 C:\xampp\htdocs\hsd\app\Views\karyawan\edit_karyawan.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('karyawan/edit_k...', Array, true)
+#4 C:\xampp\htdocs\hsd\app\Controllers\Karyawan.php(86): view('karyawan/edit_k...', Array)
+#5 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Karyawan->edit_karyawan('19920100013')
+#6 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#7 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hsd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-10 15:09:58 --> Undefined variable: pageHeader
+#0 C:\xampp\htdocs\hsd\app\Views\karyawan\edit_atasan.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('karyawan/edit_a...', Array, true)
+#4 C:\xampp\htdocs\hsd\app\Controllers\Karyawan.php(102): view('karyawan/edit_a...', Array)
+#5 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Karyawan->edit_atasan('19920100013')
+#6 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#7 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hsd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-10 15:09:59 --> Undefined variable: pageHeader
+#0 C:\xampp\htdocs\hsd\app\Views\karyawan\edit_karyawan.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('karyawan/edit_k...', Array, true)
+#4 C:\xampp\htdocs\hsd\app\Controllers\Karyawan.php(86): view('karyawan/edit_k...', Array)
+#5 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Karyawan->edit_karyawan('19920100013')
+#6 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#7 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hsd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-10 15:10:01 --> Undefined variable: pageHeader
+#0 C:\xampp\htdocs\hsd\app\Views\karyawan\edit_karyawan.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('karyawan/edit_k...', Array, true)
+#4 C:\xampp\htdocs\hsd\app\Controllers\Karyawan.php(86): view('karyawan/edit_k...', Array)
+#5 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Karyawan->edit_karyawan('19920100013')
+#6 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#7 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hsd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-10 15:10:05 --> Undefined variable: pageHeader
+#0 C:\xampp\htdocs\hsd\app\Views\karyawan\edit_karyawan.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('karyawan/edit_k...', Array, true)
+#4 C:\xampp\htdocs\hsd\app\Controllers\Karyawan.php(86): view('karyawan/edit_k...', Array)
+#5 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Karyawan->edit_karyawan('19920100013')
+#6 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#7 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hsd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-10 15:10:25 --> Undefined variable: pageHeader
+#0 C:\xampp\htdocs\hsd\app\Views\karyawan\edit_atasan.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('karyawan/edit_a...', Array, true)
+#4 C:\xampp\htdocs\hsd\app\Controllers\Karyawan.php(102): view('karyawan/edit_a...', Array)
+#5 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Karyawan->edit_atasan('19920100013')
+#6 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#7 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hsd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-10 15:10:30 --> Undefined variable: pageHeader
+#0 C:\xampp\htdocs\hsd\app\Views\karyawan\edit_karyawan.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('karyawan/edit_k...', Array, true)
+#4 C:\xampp\htdocs\hsd\app\Controllers\Karyawan.php(86): view('karyawan/edit_k...', Array)
+#5 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Karyawan->edit_karyawan('19920100013')
+#6 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#7 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hsd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-10 15:11:22 --> Undefined variable: pageHeader
+#0 C:\xampp\htdocs\hsd\app\Views\karyawan\edit_karyawan.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('karyawan/edit_k...', Array, true)
+#4 C:\xampp\htdocs\hsd\app\Controllers\Karyawan.php(86): view('karyawan/edit_k...', Array)
+#5 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Karyawan->edit_karyawan('19920100013')
+#6 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#7 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hsd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-10 15:14:04 --> Undefined variable: pageHeader
+#0 C:\xampp\htdocs\hsd\app\Views\karyawan\detail_karyawan.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('karyawan/detail...', Array, true)
+#4 C:\xampp\htdocs\hsd\app\Controllers\Karyawan.php(235): view('karyawan/detail...', Array)
+#5 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Karyawan->update()
+#6 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#7 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hsd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\hsd\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-10 16:06:31 --> syntax error, unexpected ')', expecting '{'
+#0 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\hsd-pa\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-07-10 16:06:34 --> syntax error, unexpected ')', expecting '{'
+#0 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\hsd-pa\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-07-10 16:24:28 --> Undefined variable: coaching
+#0 C:\xampp\htdocs\hsd-pa\app\Views\dashboard\home.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('dashboard/home', Array, true)
+#4 C:\xampp\htdocs\hsd-pa\app\Controllers\Home.php(94): view('dashboard/home', Array)
+#5 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hsd-pa\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-10 16:40:35 --> Call to undefined method App\Models\PekerjaModel::isPasswordExpired
+#0 C:\xampp\htdocs\hsd-pa\app\Controllers\Home.php(155): CodeIgniter\Model->__call('isPasswordExpir...', Array)
+#1 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hsd-pa\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-10 16:40:59 --> Call to undefined method App\Models\PekerjaModel::isPasswordExpired
+#0 C:\xampp\htdocs\hsd-pa\app\Controllers\Home.php(155): CodeIgniter\Model->__call('isPasswordExpir...', Array)
+#1 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hsd-pa\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-10 16:41:10 --> Call to undefined method App\Models\PekerjaModel::isPasswordExpired
+#0 C:\xampp\htdocs\hsd-pa\app\Controllers\Home.php(155): CodeIgniter\Model->__call('isPasswordExpir...', Array)
+#1 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hsd-pa\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-10 21:31:11 --> Unknown column 'desc_sarbis8' in 'field list'
+CRITICAL - 2022-07-10 21:32:33 --> Call to undefined method App\Models\Karyawan\AtasanModel::getBawahanWajibCoaching
+#0 C:\xampp\htdocs\hsd-pa\app\Controllers\Home.php(23): CodeIgniter\Model->__call('getBawahanWajib...', Array)
+#1 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#2 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hsd-pa\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-10 21:33:21 --> Call to undefined method App\Models\Karyawan\AtasanModel::getBawahanWajibCoaching
+#0 C:\xampp\htdocs\hsd-pa\app\Controllers\Home.php(23): CodeIgniter\Model->__call('getBawahanWajib...', Array)
+#1 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#2 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hsd-pa\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-10 21:33:21 --> Call to undefined method App\Models\Karyawan\AtasanModel::getBawahanWajibCoaching
+#0 C:\xampp\htdocs\hsd-pa\app\Controllers\Home.php(23): CodeIgniter\Model->__call('getBawahanWajib...', Array)
+#1 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#2 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hsd-pa\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-10 21:33:22 --> Call to undefined method App\Models\Karyawan\AtasanModel::getBawahanWajibCoaching
+#0 C:\xampp\htdocs\hsd-pa\app\Controllers\Home.php(23): CodeIgniter\Model->__call('getBawahanWajib...', Array)
+#1 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#2 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hsd-pa\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-10 21:33:22 --> Call to undefined method App\Models\Karyawan\AtasanModel::getBawahanWajibCoaching
+#0 C:\xampp\htdocs\hsd-pa\app\Controllers\Home.php(23): CodeIgniter\Model->__call('getBawahanWajib...', Array)
+#1 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#2 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hsd-pa\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-10 21:33:22 --> Call to undefined method App\Models\Karyawan\AtasanModel::getBawahanWajibCoaching
+#0 C:\xampp\htdocs\hsd-pa\app\Controllers\Home.php(23): CodeIgniter\Model->__call('getBawahanWajib...', Array)
+#1 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#2 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hsd-pa\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-10 21:33:22 --> Call to undefined method App\Models\Karyawan\AtasanModel::getBawahanWajibCoaching
+#0 C:\xampp\htdocs\hsd-pa\app\Controllers\Home.php(23): CodeIgniter\Model->__call('getBawahanWajib...', Array)
+#1 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#2 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hsd-pa\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-10 21:33:22 --> Call to undefined method App\Models\Karyawan\AtasanModel::getBawahanWajibCoaching
+#0 C:\xampp\htdocs\hsd-pa\app\Controllers\Home.php(23): CodeIgniter\Model->__call('getBawahanWajib...', Array)
+#1 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#2 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hsd-pa\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-10 21:33:23 --> Call to undefined method App\Models\Karyawan\AtasanModel::getBawahanWajibCoaching
+#0 C:\xampp\htdocs\hsd-pa\app\Controllers\Home.php(23): CodeIgniter\Model->__call('getBawahanWajib...', Array)
+#1 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#2 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hsd-pa\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-10 21:36:08 --> Call to undefined method App\Models\Karyawan\AtasanModel::getBawahanWajibCoaching
+#0 C:\xampp\htdocs\hsd-pa\app\Controllers\Home.php(23): CodeIgniter\Model->__call('getBawahanWajib...', Array)
+#1 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#2 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hsd-pa\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-10 21:41:07 --> Unknown column 'desc_sarbis8' in 'field list'
+ERROR - 2022-07-10 21:46:32 --> Unknown column 'desc_sarbis8' in 'field list'
+CRITICAL - 2022-07-10 21:57:52 --> Cannot redeclare App\Models\SarbisModel::$allowedFields
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-10 22:00:02 --> Undefined variable: listSarbis
+#0 C:\xampp\htdocs\hsd-pa\app\Views\sarbis\riwayat.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('sarbis/riwayat', Array, true)
+#4 C:\xampp\htdocs\hsd-pa\app\Controllers\Sarbis.php(224): view('sarbis/riwayat', Array)
+#5 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Sarbis->edit('26')
+#6 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sarbis))
+#7 C:\xampp\htdocs\hsd-pa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hsd-pa\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

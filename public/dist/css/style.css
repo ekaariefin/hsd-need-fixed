@@ -1,0 +1,24 @@
+.custom-clickable-row {
+  cursor: pointer;
+}
+
+textarea:required {
+  box-shadow: none;
+  resize: none;
+  height: 20px;
+}
+
+.left-col {
+  float: left;
+  width: 25%;
+}
+
+.center-col {
+  float: left;
+  width: 50%;
+}
+
+.right-col {
+  float: left;
+  width: 25%;
+}

@@ -1,0 +1,144 @@
+@startuml
+
+
+entity auth{
+    *userid : VARCHAR
+    --
+    password : VARCHAR
+    salt : VARCHAR
+    role : INT
+    is_active : BOOLEAN
+    create_at : DATETIME
+    edited_at : DATETIME
+    deleted_at : DATETIME
+}
+
+entity pekerja{
+    *fnip : VARCHAR
+    --
+    fnama : VARCHAR
+    jk (ENUM(LAKI-LAKI | PEREMPUAN))
+    jabatan
+    satuan_kerja
+    departemen
+    bidang
+    fungsi
+    fgrade
+    fkode_cab
+    *email : VARCHAR
+    create_at
+    edited_at
+    deleted_at
+}
+
+entity atasan{
+    *id : VARCHAR
+    --
+    *user_nip : VARCHAR
+    *atasan_nip : VARCHAR
+}
+
+entity periode_coaching{
+    *id : INT
+    --
+    *nama_periode : VARCHAR
+    start_coaching : DATETIME
+    end_coaching : DATETIME
+}
+
+entity coaching{
+    *id : VARCHAR
+    --
+    fnip_karyawan : VARCHAR
+    fnip_atasan : VARCHAR
+    periode_coaching : INT
+    tanggal_coaching (DATE)
+    sasaran_bisnis_kecakapan_kerja_1 : TEXT
+    sasaran_bisnis_kecakapan_kerja_2 : TEXT
+    sasaran_bisnis_kecakapan_kerja_3 : TEXT
+    sasaran_bisnis_kecakapan_kerja_4 : TEXT
+    sasaran_bisnis_kecakapan_kerja_5 : TEXT
+    sasaran_bisnis_kecakapan_kerja_6 : TEXT
+    sasaran_bisnis_kecakapan_kerja_7 : TEXT
+    capaian_1 : TEXT
+    capaian_2 : TEXT
+    capaian_3 : TEXT
+    capaian_4 : TEXT
+    capaian_5 : TEXT
+    capaian_6 : TEXT
+    capaian_7 : TEXT
+    perilaku_kerja_1 : TEXT
+    perilaku_kerja_2 : TEXT
+    perilaku_kerja_3 : TEXT
+    perilaku_kerja_4 : TEXT
+    perilaku_kerja_5 : TEXT
+    perilaku_kerja_6 : TEXT
+    perilaku_kerja_7 : TEXT
+    perilaku_kerja_8 : TEXT
+    perilaku_kerja_9 : TEXT
+    perilaku_kerja_10 : TEXT
+    saran_dukungan : TEXT
+    status : BOOLEAN
+    create_at : DATETIME
+    edited_at : DATETIME
+    deleted_at : DATETIME
+}
+
+entity jabatan{
+    *id : INT
+    --
+    nama : VARCHAR
+    golongan : INT
+}
+
+entity satuan_kerja{
+    *id : INT
+    --
+    nama : VARCHAR
+    kode_cabang : VARCHAR
+}
+
+entity departemen{
+    *id : INT
+    --
+    nama : VARCHAR
+}
+
+entity bidang{
+    *id : INT
+    --
+    nama : VARCHAR
+}
+
+entity fungsi{
+    *id : INT
+    --
+    nama : VARCHAR
+}
+
+entity kode_cabang{
+    *id : INT
+    --
+    nama : VARCHAR
+}
+
+entity golongan{
+    *id : INT
+    --
+    golongan: INT
+}
+
+
+
+pekerja ||--|| auth
+pekerja ||--|| atasan
+pekerja ||--o{ coaching
+periode_coaching ||--|{ coaching 
+jabatan ||--|{ pekerja
+satuan_kerja ||--|{ pekerja
+departemen ||--|{ pekerja
+bidang ||--|{ pekerja
+fungsi ||--|{ pekerja
+kode_cabang ||--|{ satuan_kerja
+golongan ||--|{ jabatan
+@enduml

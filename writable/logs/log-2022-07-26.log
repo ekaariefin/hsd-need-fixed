@@ -1,0 +1,19 @@
+CRITICAL - 2022-07-26 08:47:52 --> Invalid argument supplied for foreach()
+#0 C:\xampp73\htdocs\appraisal\app\Views\dashboard\home.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp73\\htdo...', 34, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp73\\htdo...')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('dashboard/home', Array, true)
+#4 C:\xampp73\htdocs\appraisal\app\Controllers\Home.php(213): view('dashboard/home', Array)
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-26 09:23:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 6
+CRITICAL - 2022-07-26 09:23:31 --> Call to a member function getResultArray() on bool
+#0 C:\xampp73\htdocs\appraisal\app\Controllers\Karyawan.php(45): App\Models\Karyawan\AtasanModel->getBawahanFull()
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Karyawan->daftar_karyawan()
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

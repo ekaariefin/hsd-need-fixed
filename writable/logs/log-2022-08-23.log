@@ -1,0 +1,56 @@
+ERROR - 2022-08-23 14:01:39 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-08-23 14:01:39 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Validation\Rules.php(104): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_not_unique('20211101887', 'userid', Array, NULL)
+#4 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'User id', '20211101887', Array, Array)
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 C:\xampp73\htdocs\appraisal\app\Controllers\auth\Auth.php(46): CodeIgniter\Controller->validate(Array)
+#7 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth\Auth->loginProcess()
+#8 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#9 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-08-23 14:01:39 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp73\htdocs\appraisal\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp73\\htdo...', 96, Array)
+#1 C:\xampp73\htdocs\appraisal\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Auth\Auth), true)
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Debug\Exceptions.php(234): include('C:\\xampp73\\htdo...')
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-08-23 14:40:06 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-08-23 14:40:06 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Validation\Rules.php(104): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_not_unique('20211101887', 'userid', Array, NULL)
+#4 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'User id', '20211101887', Array, Array)
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 C:\xampp73\htdocs\appraisal\app\Controllers\auth\Auth.php(46): CodeIgniter\Controller->validate(Array)
+#7 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth\Auth->loginProcess()
+#8 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#9 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-08-23 14:40:06 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp73\htdocs\appraisal\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp73\\htdo...', 96, Array)
+#1 C:\xampp73\htdocs\appraisal\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Auth\Auth), true)
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Debug\Exceptions.php(234): include('C:\\xampp73\\htdo...')
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

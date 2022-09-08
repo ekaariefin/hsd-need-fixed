@@ -1,0 +1,213 @@
+CRITICAL - 2022-08-05 09:10:15 --> syntax error, unexpected '<'
+#0 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('penilaian/histo...', Array, true)
+#2 C:\xampp73\htdocs\appraisal\app\Controllers\History\History.php(22): view('penilaian/histo...', Array)
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\History\History->index()
+#4 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History\History))
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-05 09:10:16 --> syntax error, unexpected '<'
+#0 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('penilaian/histo...', Array, true)
+#2 C:\xampp73\htdocs\appraisal\app\Controllers\History\History.php(22): view('penilaian/histo...', Array)
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\History\History->index()
+#4 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History\History))
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-05 09:10:22 --> syntax error, unexpected '<'
+#0 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('penilaian/histo...', Array, true)
+#2 C:\xampp73\htdocs\appraisal\app\Controllers\History\History.php(22): view('penilaian/histo...', Array)
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\History\History->index()
+#4 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History\History))
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-05 09:15:46 --> Undefined offset: 0
+#0 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\DetailPenilaian.php(166): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp73\\htdo...', 166, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\DetailPenilaian->cab_gol_uls('1')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\DetailPenilaian))
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 09:15:50 --> Undefined offset: 0
+#0 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\DetailPenilaian.php(166): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp73\\htdo...', 166, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\DetailPenilaian->cab_gol_uls('1')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\DetailPenilaian))
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 09:18:51 --> Invalid argument supplied for foreach()
+#0 C:\xampp73\htdocs\appraisal\app\Views\dashboard\home.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp73\\htdo...', 34, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp73\\htdo...')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('dashboard/home', Array, true)
+#4 C:\xampp73\htdocs\appraisal\app\Controllers\Home.php(213): view('dashboard/home', Array)
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-05 09:18:54 --> Invalid argument supplied for foreach()
+#0 C:\xampp73\htdocs\appraisal\app\Views\dashboard\home.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp73\\htdo...', 34, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp73\\htdo...')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('dashboard/home', Array, true)
+#4 C:\xampp73\htdocs\appraisal\app\Controllers\Home.php(213): view('dashboard/home', Array)
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-05 09:29:55 --> Undefined offset: 0
+#0 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\UnduhPenilaianIndividu.php(263): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp73\\htdo...', 263, Array)
+#1 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\UnduhPenilaianIndividu.php(33): App\Controllers\Penilaian\UnduhPenilaianIndividu->cab_gol_koc('1')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\UnduhPenilaianIndividu->index('cab_koc', '1')
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\UnduhPenilaianIndividu))
+#4 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-05 09:30:46 --> Undefined offset: 0
+#0 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\UnduhPenilaianIndividu.php(263): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp73\\htdo...', 263, Array)
+#1 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\UnduhPenilaianIndividu.php(33): App\Controllers\Penilaian\UnduhPenilaianIndividu->cab_gol_koc('1')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\UnduhPenilaianIndividu->index('cab_koc', '1')
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\UnduhPenilaianIndividu))
+#4 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-05 09:30:59 --> Undefined offset: 0
+#0 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\UnduhPenilaianIndividu.php(263): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp73\\htdo...', 263, Array)
+#1 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\UnduhPenilaianIndividu.php(33): App\Controllers\Penilaian\UnduhPenilaianIndividu->cab_gol_koc('1')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\UnduhPenilaianIndividu->index('cab_koc', '1')
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\UnduhPenilaianIndividu))
+#4 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-05 09:31:21 --> Undefined offset: 0
+#0 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\UnduhPenilaianIndividu.php(263): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp73\\htdo...', 263, Array)
+#1 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\UnduhPenilaianIndividu.php(33): App\Controllers\Penilaian\UnduhPenilaianIndividu->cab_gol_koc('1')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\UnduhPenilaianIndividu->index('cab_koc', '1')
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\UnduhPenilaianIndividu))
+#4 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-05 09:33:08 --> Undefined offset: 0
+#0 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\UnduhPenilaianIndividu.php(264): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp73\\htdo...', 264, Array)
+#1 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\UnduhPenilaianIndividu.php(33): App\Controllers\Penilaian\UnduhPenilaianIndividu->cab_gol_koc('1')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\UnduhPenilaianIndividu->index('cab_koc', '1')
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\UnduhPenilaianIndividu))
+#4 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-05 10:25:38 --> Undefined variable: getSarbis
+#0 C:\xampp73\htdocs\appraisal\app\Views\penilaian\pusat\form-revisi\kp_gol_67.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp73\\htdo...', 52, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp73\\htdo...')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('penilaian/pusat...', Array, true)
+#4 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\Penilaian.php(906): view('penilaian/pusat...', Array)
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\Penilaian->form_pa_edit('2021', '1', '20101100496')
+#6 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\Penilaian))
+#7 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-05 10:28:44 --> Undefined index: desc_sarbis1
+#0 C:\xampp73\htdocs\appraisal\app\Views\penilaian\pusat\form-revisi\kp_gol_67.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp73\\htdo...', 53, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp73\\htdo...')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('penilaian/pusat...', Array, true)
+#4 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\Penilaian.php(887): view('penilaian/pusat...', Array)
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\Penilaian->form_pa_edit('2021', '1', '20101100496')
+#6 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\Penilaian))
+#7 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-05 14:04:56 --> Undefined variable: bobot_kualitas_pelayanan
+#0 C:\xampp73\htdocs\appraisal\app\Views\penilaian\cabang\form-revisi\cab_ka_kcu.php(492): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp73\\htdo...', 492, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp73\\htdo...')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('penilaian/caban...', Array, true)
+#4 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\Penilaian.php(933): view('penilaian/caban...', Array)
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\Penilaian->form_pa_edit('2021', '1', '20210801828')
+#6 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\Penilaian))
+#7 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-05 14:05:00 --> Undefined variable: bobot_kualitas_pelayanan
+#0 C:\xampp73\htdocs\appraisal\app\Views\penilaian\cabang\form-revisi\cab_ka_kcu.php(492): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp73\\htdo...', 492, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp73\\htdo...')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('penilaian/caban...', Array, true)
+#4 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\Penilaian.php(933): view('penilaian/caban...', Array)
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\Penilaian->form_pa_edit('2021', '1', '20210801828')
+#6 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\Penilaian))
+#7 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-05 14:05:08 --> Undefined variable: bobot_kualitas_pelayanan
+#0 C:\xampp73\htdocs\appraisal\app\Views\penilaian\cabang\form-revisi\cab_ka_kcu.php(492): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp73\\htdo...', 492, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp73\\htdo...')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('penilaian/caban...', Array, true)
+#4 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\Penilaian.php(933): view('penilaian/caban...', Array)
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\Penilaian->form_pa_edit('2021', '1', '20210801828')
+#6 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\Penilaian))
+#7 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-05 14:07:05 --> Undefined variable: bobot_kualitas_pelayanan
+#0 C:\xampp73\htdocs\appraisal\app\Views\penilaian\cabang\form-revisi\cab_ka_kcu.php(492): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp73\\htdo...', 492, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp73\\htdo...')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('penilaian/caban...', Array, true)
+#4 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\Penilaian.php(933): view('penilaian/caban...', Array)
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\Penilaian->form_pa_edit('2021', '1', '20210801828')
+#6 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\Penilaian))
+#7 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-05 14:11:07 --> Undefined variable: bobot_kualitas_pelayanan
+#0 C:\xampp73\htdocs\appraisal\app\Views\penilaian\cabang\form-revisi\cab_ka_kcu.php(492): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp73\\htdo...', 492, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp73\\htdo...')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('penilaian/caban...', Array, true)
+#4 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\Penilaian.php(933): view('penilaian/caban...', Array)
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\Penilaian->form_pa_edit('2021', '1', '20210801828')
+#6 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\Penilaian))
+#7 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-05 14:15:21 --> Undefined variable: bobot_kualitas_pelayanan
+#0 C:\xampp73\htdocs\appraisal\app\Views\penilaian\cabang\form-revisi\cab_ka_kcu.php(492): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp73\\htdo...', 492, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp73\\htdo...')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('penilaian/caban...', Array, true)
+#4 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\Penilaian.php(933): view('penilaian/caban...', Array)
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\Penilaian->form_pa_edit('2021', '1', '20210801828')
+#6 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\Penilaian))
+#7 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-05 14:22:40 --> Undefined variable: bobot_kualitas_pelayanan
+#0 C:\xampp73\htdocs\appraisal\app\Views\penilaian\cabang\form-revisi\cab_ka_kcu.php(492): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp73\\htdo...', 492, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp73\\htdo...')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('penilaian/caban...', Array, true)
+#4 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\Penilaian.php(933): view('penilaian/caban...', Array)
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\Penilaian->form_pa_edit('2021', '1', '20210801828')
+#6 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\Penilaian))
+#7 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-05 14:23:17 --> Undefined variable: bobot_kualitas_pelayanan
+#0 C:\xampp73\htdocs\appraisal\app\Views\penilaian\cabang\form-revisi\cab_ka_kcu.php(492): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp73\\htdo...', 492, Array)
+#1 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp73\\htdo...')
+#2 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('penilaian/caban...', Array, true)
+#4 C:\xampp73\htdocs\appraisal\app\Controllers\penilaian\Penilaian.php(933): view('penilaian/caban...', Array)
+#5 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penilaian\Penilaian->form_pa_edit('2021', '1', '20210801828')
+#6 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian\Penilaian))
+#7 C:\xampp73\htdocs\appraisal\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp73\htdocs\appraisal\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
